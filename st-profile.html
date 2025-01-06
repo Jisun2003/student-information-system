@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav id="sidebar">
+    <ul>
+      <li>
+        <span class="logo">Student</span>
+        <button onclick="toggleSidebar()" id="toggle-btn">
+          <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="m313-480 155 156q11 11 11.5 27.5T468-268q-11 11-28 11t-28-11L228-452q-6-6-8.5-13t-2.5-15q0-8 2.5-15t8.5-13l184-184q11-11 27.5-11.5T468-692q11 11 11 28t-11 28L313-480Zm264 0 155 156q11 11 11.5 27.5T732-268q-11 11-28 11t-28-11L492-452q-6-6-8.5-13t-2.5-15q0-8 2.5-15t8.5-13l184-184q11-11 27.5-11.5T732-692q11 11 11 28t-11 28L577-480Z"/></svg>
+        </button>
+      </li>
+      <li>
+        <div id="logo-container" class="logo">
+          <img src="img/logo.png" alt="Logo">
+          <h2>Student Management System</h2>
+        </div>
+      </li>
+      <li><a href="index.html"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M240-200h120v-200q0-17 11.5-28.5T400-440h160q17 0 28.5 11.5T600-400v200h120v-360L480-740 240-560v360Zm-80 0v-360q0-19 8.5-36t23.5-28l240-180q21-16 48-16t48 16l240 180q15 11 23.5 28t8.5 36v360q0 33-23.5 56.5T720-120H560q-17 0-28.5-11.5T520-160v-200h-80v200q0 17-11.5 28.5T400-120H240q-33 0-56.5-23.5T160-200Zm320-270Z"/></svg><span>Home</span></a></li>
+      <li class="active"><a href="st-profile.html"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M480-480q-66 0-113-47t-47-113q0-66 47-113t113-47q66 0 113 47t47 113q0 66-47 113t-113 47ZM160-240v-32q0-34 17.5-62.5T224-378q62-31 126-46.5T480-440q66 0 130 15.5T736-378q29 15 46.5 43.5T800-272v32q0 33-23.5 56.5T720-160H240q-33 0-56.5-23.5T160-240Zm80 0h480v-32q0-11-5.5-20T700-306q-54-27-109-40.5T480-360q-56 0-111 13.5T260-306q-9 5-14.5 14t-5.5 20v32Zm240-320q33 0 56.5-23.5T560-640q0-33-23.5-56.5T480-720q-33 0-56.5 23.5T400-640q0 33 23.5 56.5T480-560Zm0-80Zm0 400Z"/></svg><span>Student Info</span></a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <div class="main-content">
+      <!-- Student cards -->
+      <article class="student-info">
+        <div class="student-info-content">
+          <h3>Personal Information</h3>
+          <p><strong>Username:</strong> Jason M. Dejucos</p>
+          <p><strong>Email:</strong> jasondejucos21@gmail.com</p>
+          <p><strong>Mobile Number:</strong> 0909090909</p>
+          <p><strong>Account Type:</strong> Student</p>
+          <p><strong>Course:</strong> IT</p>
+        </div>
+        <img src="img/1.jpg" alt="Profile Picture" class="student-profile-pic">
+      </article>
+      <article class="student-info">
+        <div class="student-info-content">
+          <h3>Personal Information</h3>
+          <p><strong>Username:</strong> Adrian G. Lizano</p>
+          <p><strong>Email:</strong> lizano0912@gmail.com</p>
+          <p><strong>Mobile Number:</strong> 0908080808</p>
+          <p><strong>Account Type:</strong> Student</p>
+          <p><strong>Course:</strong> IT</p>
+        </div>
+        <img src="img/1.jpg" alt="Profile Picture" class="student-profile-pic">
+      </article>
+      <article class="student-info">
+        <div class="student-info-content">
+          <h3>Personal Information</h3>
+          <p><strong>Username:</strong> Josefa B. Dela Cruz</p>
+          <p><strong>Email:</strong> josefa123@gmail.com</p>
+          <p><strong>Mobile Number:</strong> 0912345678</p>
+          <p><strong>Account Type:</strong> Student</p>
+          <p><strong>Course:</strong> IT</p>
+        </div>
+        <img src="img/1.jpg" alt="Profile Picture" class="student-profile-pic">
+      </article>
+      
+      <article class="student-info">
+        <div class="student-info-content">
+          <h3>Personal Information</h3>
+          <p><strong>Username:</strong> Michael D. Ramos</p>
+          <p><strong>Email:</strong> michaelramos@gmail.com</p>
+          <p><strong>Mobile Number:</strong> 0912123456</p>
+          <p><strong>Account Type:</strong> Student</p>
+          <p><strong>Course:</strong> IT</p>
+        </div>
+        <img src="img/1.jpg" alt="Profile Picture" class="student-profile-pic">
+      </article>
+      
+      <article class="student-info">
+        <div class="student-info-content">
+          <h3>Personal Information</h3>
+          <p><strong>Username:</strong> Clara M. Santiago</p>
+          <p><strong>Email:</strong> clara.santiago@gmail.com</p>
+          <p><strong>Mobile Number:</strong> 0908222333</p>
+          <p><strong>Account Type:</strong> Student</p>
+          <p><strong>Course:</strong> IT</p>
+        </div>
+        <img src="img/1.jpg" alt="Profile Picture" class="student-profile-pic">
+      </article>
+      
+      <article class="student-info">
+        <div class="student-info-content">
+          <h3>Personal Information</h3>
+          <p><strong>Username:</strong> Carlos A. Mendez</p>
+          <p><strong>Email:</strong> carlos.mendez@gmail.com</p>
+          <p><strong>Mobile Number:</strong> 0922333444</p>
+          <p><strong>Account Type:</strong> Student</p>
+          <p><strong>Course:</strong> IT</p>
+        </div>
+        <img src="img/1.jpg" alt="Profile Picture" class="student-profile-pic">
+      </article>
+      
+      <article class="student-info">
+        <div class="student-info-content">
+          <h3>Personal Information</h3>
+          <p><strong>Username:</strong> Anna L. Garcia</p>
+          <p><strong>Email:</strong> anna.garcia@gmail.com</p>
+          <p><strong>Mobile Number:</strong> 0922112233</p>
+          <p><strong>Account Type:</strong> Student</p>
+          <p><strong>Course:</strong> IT</p>
+        </div>
+        <img src="img/1.jpg" alt="Profile Picture" class="student-profile-pic">
+      </article>
+      
+      <article class="student-info">
+        <div class="student-info-content">
+          <h3>Personal Information</h3>
+          <p><strong>Username:</strong> Luis B. De Castro</p>
+          <p><strong>Email:</strong> luis.b@gmail.com</p>
+          <p><strong>Mobile Number:</strong> 0922444555</p>
+          <p><strong>Account Type:</strong> Student</p>
+          <p><strong>Course:</strong> IT</p>
+        </div>
+        <img src="img/1.jpg" alt="Profile Picture" class="student-profile-pic">
+      </article>
+      
+      <!-- CS Course -->
+      <article class="student-info">
+        <div class="student-info-content">
+          <h3>Personal Information</h3>
+          <p><strong>Username:</strong> Kim Enteria</p>
+          <p><strong>Email:</strong> enteria1234@gmail.com</p>
+          <p><strong>Mobile Number:</strong> 0907070707</p>
+          <p><strong>Account Type:</strong> Student</p>
+          <p><strong>Course:</strong> CS</p>
+        </div>
+        <img src="img/1.jpg" alt="Profile Picture" class="student-profile-pic">
+      </article>
+      
+      <article class="student-info">
+        <div class="student-info-content">
+          <h3>Personal Information</h3>
+          <p><strong>Username:</strong> Rachel S. Perez</p>
+          <p><strong>Email:</strong> rachelperez@gmail.com</p>
+          <p><strong>Mobile Number:</strong> 0905123456</p>
+          <p><strong>Account Type:</strong> Student</p>
+          <p><strong>Course:</strong> CS</p>
+        </div>
+        <img src="img/1.jpg" alt="Profile Picture" class="student-profile-pic">
+      </article>
+      
+      <article class="student-info">
+        <div class="student-info-content">
+          <h3>Personal Information</h3>
+          <p><strong>Username:</strong> Daniel J. Medina</p>
+          <p><strong>Email:</strong> daniel.medina@gmail.com</p>
+          <p><strong>Mobile Number:</strong> 0911112233</p>
+          <p><strong>Account Type:</strong> Student</p>
+          <p><strong>Course:</strong> CS</p>
+        </div>
+        <img src="img/1.jpg" alt="Profile Picture" class="student-profile-pic">
+      </article>
+      
+      <article class="student-info">
+        <div class="student-info-content">
+          <h3>Personal Information</h3>
+          <p><strong>Username:</strong> Lola F. Santos</p>
+          <p><strong>Email:</strong> lola.santos@gmail.com</p>
+          <p><strong>Mobile Number:</strong> 0912333444</p>
+          <p><strong>Account Type:</strong> Student</p>
+          <p><strong>Course:</strong> CS</p>
+        </div>
+        <img src="img/1.jpg" alt="Profile Picture" class="student-profile-pic">
+      </article>
+      
+      <article class="student-info">
+        <div class="student-info-content">
+          <h3>Personal Information</h3>
+          <p><strong>Username:</strong> Joshua D. Espino</p>
+          <p><strong>Email:</strong> joshuaespino@gmail.com</p>
+          <p><strong>Mobile Number:</strong> 0922556677</p>
+          <p><strong>Account Type:</strong> Student</p>
+          <p><strong>Course:</strong> CS</p>
+        </div>
+        <img src="img/1.jpg" alt="Profile Picture" class="student-profile-pic">
+      </article>
+      
+      <!-- IS Course -->
+      <article class="student-info">
+        <div class="student-info-content">
+          <h3>Personal Information</h3>
+          <p><strong>Username:</strong> Errald N. Briones</p>
+          <p><strong>Email:</strong> jeraldnb21@gmail.com</p>
+          <p><strong>Mobile Number:</strong> 0906060606</p>
+          <p><strong>Account Type:</strong> Student</p>
+          <p><strong>Course:</strong> IS</p>
+        </div>
+        <img src="img/1.jpg" alt="Profile Picture" class="student-profile-pic">
+      </article>
+      
+      <article class="student-info">
+        <div class="student-info-content">
+          <h3>Personal Information</h3>
+          <p><strong>Username:</strong> Brian T. Angeles</p>
+          <p><strong>Email:</strong> brian.angeles@gmail.com</p>
+          <p><strong>Mobile Number:</strong> 0922332233</p>
+          <p><strong>Account Type:</strong> Student</p>
+          <p><strong>Course:</strong> IS</p>
+        </div>
+        <img src="img/1.jpg" alt="Profile Picture" class="student-profile-pic">
+      </article>
+      
+      <article class="student-info">
+        <div class="student-info-content">
+          <h3>Personal Information</h3>
+          <p><strong>Username:</strong> Carla V. Mendoza</p>
+          <p><strong>Email:</strong> carla.mendoza@gmail.com</p>
+          <p><strong>Mobile Number:</strong> 0901231234</p>
+          <p><strong>Account Type:</strong> Student</p>
+          <p><strong>Course:</strong> IS</p>
+        </div>
+        <img src="img/1.jpg" alt="Profile Picture" class="student-profile-pic">
+      </article>
+      
+      <article class="student-info">
+        <div class="student-info-content">
+          <h3>Personal Information</h3>
+          <p><strong>Username:</strong> Roberto E. Ortega</p>
+          <p><strong>Email:</strong> roberto.ortega@gmail.com</p>
+          <p><strong>Mobile Number:</strong> 0913444555</p>
+          <p><strong>Account Type:</strong> Student</p>
+          <p><strong>Course:</strong> IS</p>
+        </div>
+        <img src="img/1.jpg" alt="Profile Picture" class="student-profile-pic">
+      </article>
+      
+      <article class="student-info">
+        <div class="student-info-content">
+          <h3>Personal Information</h3>
+          <p><strong>Username:</strong> Jonathan C. Mabilog</p>
+          <p><strong>Email:</strong> jonathan.mabilog@gmail.com</p>
+          <p><strong>Mobile Number:</strong> 0907998111</p>
+          <p><strong>Account Type:</strong> Student</p>
+          <p><strong>Course:</strong> IS</p>
+        </div>
+        <img src="img/1.jpg" alt="Profile Picture" class="student-profile-pic">
+      </article>
+      
+      <article class="student-info">
+        <div class="student-info-content">
+          <h3>Personal Information</h3>
+          <p><strong>Username:</strong> Sabrina D. Navarro</p>
+          <p><strong>Email:</strong> sabrina.navarro@gmail.com</p>
+          <p><strong>Mobile Number:</strong> 0922113344</p>
+          <p><strong>Account Type:</strong> Student</p>
+          <p><strong>Course:</strong> IS</p>
+        </div>
+        <img src="img/1.jpg" alt="Profile Picture" class="student-profile-pic">
+      </article>
+            
+      <!-- Filter card -->
+      <div class="filter-card">
+        <h3>Filter by Course</h3>
+        <button onclick="filterStudents('IT')">IT</button>
+        <button onclick="filterStudents('IS')">IS</button>
+        <button onclick="filterStudents('CS')">CS</button>
+        <button onclick="showAllStudents()">Show All</button>
+      </div>
+    </div>
+
+    <button id="back-to-top" onclick="scrollToTop()">↑</button>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
